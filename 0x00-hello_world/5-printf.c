@@ -3,7 +3,7 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
- */
+*/
 /* this program run the sentence  */
 int main(void)
 {
