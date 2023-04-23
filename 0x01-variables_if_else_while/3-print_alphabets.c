@@ -4,7 +4,7 @@
 * main - Entry point *
 * Return: Always 0 (Success)
 */
-int main (void)
+int main(void)
 {
 char ch1;
 for (ch1 = 'a' ; ch1 <= 'z'; ++ch1)
