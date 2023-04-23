@@ -10,7 +10,7 @@ char ch1;
 for (ch1 ='a'; ch1 <= 'z'; ++ch1)
 {
 putchar(ch1);
-putchar("\n");
 }
+putchar('\n' );
 return (0);
 }
