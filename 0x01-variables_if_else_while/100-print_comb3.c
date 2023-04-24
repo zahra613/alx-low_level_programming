@@ -12,18 +12,15 @@ for (z = 0; z <= 8; z++)
 {
 for (l = z + 1; l <= 9; l++)
 {
-putchar(z+'0');
-putchar(l+'0' );
-if (z != 8)
+putchar(z +'0');
+putchar(l + '0');
+if (z <= 7)
 {
 putchar(',');
-putchar(' ');
-}
-else
-{
-putchar(' ');
+putchar(' ');              
 }
 }
 }
+putchar('\n');
 return 0;
 }
