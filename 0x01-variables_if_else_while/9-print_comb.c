@@ -14,10 +14,10 @@ if (i <= 8)
 {
 putchar(',');
 }
-if(i<=8)
-  {
-    putchar(' ');
-  }
+if(i <= 8)
+{
+putchar(' ');
+}
 }
 putchar('\n');
 return (0);
