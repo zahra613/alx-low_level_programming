@@ -17,7 +17,7 @@ putchar(l + '0');
 if (z <= 7)
 {
 putchar(',');
-putchar(' ');         
+putchar(' ');  
 }
 }
 }
