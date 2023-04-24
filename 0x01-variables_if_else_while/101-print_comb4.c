@@ -13,12 +13,12 @@ for (z = 0; z <= 7; z++)
 {
 for (l = z + 1; l <= 8; l++)
 {
-for(a = l+1 ; a <= 9 ; a++)
+for (a = l + 1 ; a <= 9 ; a++)
 {
 putchar(z + '0');
 putchar(l + '0');
 putchar(a + '0');
-if (z <= 6 )
+if (z <= 6)
 {
 putchar(',');
 putchar(' ');
