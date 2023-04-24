@@ -14,7 +14,11 @@ if (i <= 8)
 {
 putchar(',');
 }
-putchar(' ');
+if(i<=8)
+  {
+    putchar(' ');
+  }
 }
+putchar('\n')
 return (0);
 }
