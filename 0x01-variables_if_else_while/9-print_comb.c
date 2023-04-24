@@ -14,7 +14,7 @@ if (i <= 8)
 {
 putchar(',');
 }
-if(i <= 8)
+if (i <= 8)
 {
 putchar(' ');
 }
