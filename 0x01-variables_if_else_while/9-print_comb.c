@@ -19,6 +19,6 @@ if(i<=8)
     putchar(' ');
   }
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
