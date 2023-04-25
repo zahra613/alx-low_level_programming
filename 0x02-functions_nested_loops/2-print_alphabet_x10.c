@@ -1,11 +1,9 @@
 #include "main.h"
 /**
-* main - prints all possible combinations of single-digit numbers
+* main - prints alphabets ten time
 * Return: Always 0 (Success)
-* 
-*/
-/* WRITTEN BY BLACK*/
-/*this is a program that print alphabets ten time*/
+*WRITTEN BY BLACK
+**/
 void print_alphabet_x10(void)
 {
 char z;
