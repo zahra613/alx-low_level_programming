@@ -6,7 +6,7 @@ Returns 0 otherwise
 *   written by black
 *
 **/
-int _islower(void)
+int _islower(int c)
 {
 int c;
 c=1; 
