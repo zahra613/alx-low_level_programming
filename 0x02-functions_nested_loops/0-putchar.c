@@ -6,14 +6,14 @@
  */
 int _putchar(char c)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
+_putchar(c = '_');
+_putchar(c = 'p');
+_putchar(c = 'u');
+_putchar(c = 't');
+_putchar(c = 'c');
+_putchar(c = 'h');
+_putchar(c = 'a');
+_putchar(c = 'r');
 _putchar('\n');
 return(0);
 }
