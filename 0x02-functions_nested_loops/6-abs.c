@@ -6,8 +6,8 @@
 * written by black
 * Return: Always 0.
 */
-int _abs(int)
-	{
+int _abs(int n)
+	{	
     _abs(n);
     _putchar(n+'0');
      _putchar('\n');
