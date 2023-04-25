@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
 * main - abs() of numbers
 * written by black
@@ -7,11 +9,11 @@
 int _abs(int)
 	{
     int n;
-    printf("please enter a number ");
-    scanf( "%d", &n);
+   _ printf("please enter a number ");
+    _scanf( "%d", &n);
     n = abs(n);
-    putchar(n+'0');
-      putchar('\n');
+    _putchar(n+'0');
+     _ putchar('\n');
       return(0);
 }
 
