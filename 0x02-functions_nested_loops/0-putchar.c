@@ -5,9 +5,9 @@
  * Return: 0
  */
 int _putchar (char c)
- {
+{
 	char c;
-	c[25] = "_putchar";
+	c [25] = "_putchar";
  _putchar(c);
-return(0);
- }
+return (0);
+}
