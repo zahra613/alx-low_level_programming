@@ -4,7 +4,8 @@
  * print_alphabet - utilizes on the _putchar function to print
  *		alphabet from a - z
  *   written by black
- */
+ *  
+ **/
 void print_alphabet(char z);
 int main(void)
 {
@@ -17,7 +18,7 @@ void print_alphabet(char z)
 {
     for(z='a';z<='z';z++)
     {
-        putchar(z);
+        _putchar(z);
     }
-    putchar('\n');
+   _putchar('\n');
 }
