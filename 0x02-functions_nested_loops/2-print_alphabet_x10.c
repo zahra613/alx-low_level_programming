@@ -4,7 +4,7 @@
  * print_alphabet 10 time
  * written by black
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 char z;
 int a;
