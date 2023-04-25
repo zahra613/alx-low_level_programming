@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * main - print _putchar
- * is written by black
- * Return: 0
- */
+* main - print _putchar
+* is written by black
+* Return: 0
+*/
 int _putchar (char c)
 {
 char c;
