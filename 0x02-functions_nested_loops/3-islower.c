@@ -8,7 +8,6 @@ Returns 0 otherwise
 **/
 int _islower(int c)
 {
-int c;
 c=1; 
 if(c<='a'&& c<='z')
 {
