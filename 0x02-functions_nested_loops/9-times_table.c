@@ -34,6 +34,6 @@ _putchar((multi / 10) + '0');
 _putchar((multi % 10) + '0');
 }
 }
-putchar('\n');
+_putchar('\n');
 }
 }
