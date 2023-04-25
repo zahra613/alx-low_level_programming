@@ -6,6 +6,8 @@
  */
 int _putchar(char c)
 {
-_putchar("_putchar");
+	char c;
+	c[25] = "_putchar";
+_putchar(c);
 return(0);
 }
