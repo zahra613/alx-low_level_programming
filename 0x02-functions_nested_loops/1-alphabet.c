@@ -6,8 +6,9 @@
  *   written by black
  *  
  **/
-void print_alphabet(char z)
+void print_alphabet(void)
 {
+	char z;
     for(z='a';z<='z';z++)
     {
         _putchar(z);
