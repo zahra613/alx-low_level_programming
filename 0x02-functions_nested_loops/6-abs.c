@@ -9,9 +9,7 @@
 int _abs(int)
 	{
     int n;
-   _ printf("please enter a number ");
-    _scanf( "%d", &n);
-    n = abs(n);
+    n = _abs(n);
     _putchar(n+'0');
      _ putchar('\n');
       return(0);
