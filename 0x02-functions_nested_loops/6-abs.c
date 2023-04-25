@@ -8,7 +8,6 @@
 */
 int _abs(int)
 	{
-    int n;
     _abs(n);
     _putchar(n+'0');
      _putchar('\n');
