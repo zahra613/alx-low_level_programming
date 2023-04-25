@@ -11,11 +11,11 @@ last = (n % 10);
 if (n >= 0)
 {
 _putchar(last + '0');
-return ( last);
+return (last);
 }
 else
 {
-_putchar(last + '0');
+_putchar(-last + '0');
 return (-last);
 }
 }
