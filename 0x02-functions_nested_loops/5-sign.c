@@ -6,25 +6,25 @@
 int print_sign(int n)
 	{
     
-      if(c> 0 )
+      if(n> 0 )
       {
           putchar('+');
           return(1);
 
       }
-      if(c== 0 )
+      if(n== 0 )
       {
           putchar('0');
           return(0);
 
       }
-       if(c< 0 )
+       if(n< 0 )
       {
           putchar('-');
           return(-1);
 
       
-       putchar(c+'0');
+       putchar(n+'0');
       putchar(',');
       putchar(' ');
       putchar('\n');
