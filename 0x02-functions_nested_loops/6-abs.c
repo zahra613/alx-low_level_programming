@@ -13,8 +13,7 @@ int _abs(int n)
     return(-n);
      }
      
-       if(n>0 ){
-    _abs(n+'0');
+       else {
     return(n);
      }
 	return(0);
