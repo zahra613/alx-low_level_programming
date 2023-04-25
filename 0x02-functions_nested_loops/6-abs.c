@@ -9,9 +9,9 @@
 int _abs(int)
 	{
     int n;
-    n = _abs(n);
+    _abs(n);
     _putchar(n+'0');
-     _ putchar('\n');
+     _putchar('\n');
       return(0);
 }
 
