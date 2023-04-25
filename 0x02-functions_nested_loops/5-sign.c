@@ -8,26 +8,26 @@ int print_sign(int n)
     
       if(n> 0 )
       {
-          putchar('+');
+          _putchar('+');
           return(1);
 
       }
       if(n== 0 )
       {
-          putchar('0');
+          _putchar('0');
           return(0);
 
       }
        if(n< 0 )
       {
-          putchar('-');
+          _putchar('-');
           return(-1);
 
       
-       putchar(n+'0');
-      putchar(',');
-      putchar(' ');
-      putchar('\n');
+       _putchar(n+'0');
+      _putchar(',');
+      _putchar(' ');
+      _putchar('\n');
     }
 
 }
