@@ -6,14 +6,6 @@
  */
 int _putchar(char c)
 {
-_putchar(c = '_');
-_putchar(c = 'p');
-_putchar(c = 'u');
-_putchar(c = 't');
-_putchar(c = 'c');
-_putchar(c = 'h');
-_putchar(c = 'a');
-_putchar(c = 'r');
-_putchar('\n');
+_putchar("_putchar");
 return(0);
 }
