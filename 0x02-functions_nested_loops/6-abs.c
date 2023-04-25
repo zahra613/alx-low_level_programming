@@ -10,7 +10,6 @@ int _abs(int n)
 	{
 	if(n<0 )	 {
     _abs(n);
-   dprintf("\n",&n);
     _putchar('\n');
      }
 	return(0);
