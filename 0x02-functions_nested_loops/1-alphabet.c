@@ -6,14 +6,6 @@
  *   written by black
  *  
  **/
-void print_alphabet(char z);
-int main(void)
-{
-    char z;
-    print_alphabet(z);
-
-    return 0;
-}
 void print_alphabet(char z)
 {
     for(z='a';z<='z';z++)
