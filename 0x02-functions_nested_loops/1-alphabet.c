@@ -1,21 +1,20 @@
-#include "main.h"
+#include "#include "main.h"
 /**
-* main - prints alphabets 
-* Return: Always 0 (Success)
-*/
-/*this is a program to print the alphabets*/
-void print_alphabet(char z);
+ * main - print _putchar
+ * is written by mbah
+ * Return: 0
+ */
+
 int main(void)
 {
-char z ;
-print_alphabet(z);
-return (0);
-}
-void print_alphabet(char z)
-{
-for (z = 'a';z <= 'z'; z++)
-{
-putchar(z);
-}
-putchar('\n');
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return(0); 
 }
