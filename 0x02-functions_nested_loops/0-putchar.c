@@ -6,8 +6,13 @@
 */
 int main(void)
 {
-char str[25]="_putchar";
-_putchar(str[25]);
+char str[] = "_putchar";
+int z;
+for (z < 25)
+{
+	z++;
+_putchar(str[z]);
 _putchar('\n');
+}
 return (0);
 }
