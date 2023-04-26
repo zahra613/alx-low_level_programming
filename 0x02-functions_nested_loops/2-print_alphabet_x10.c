@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_alphabet_x10.c print alphabet ten time
+* descreption:'print_alphabet_x10.c'
 *WRITTEN BY BLACK
 **/
 void print_alphabet_x10(void)
