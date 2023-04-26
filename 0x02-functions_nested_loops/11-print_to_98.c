@@ -11,14 +11,12 @@
 */
 void print_to_98(int n)
 {
-int z;
 int c;
-if (z > 98)
-for (c = z; c > 98; c--)
+if (n > 98)
+for (c = n; c > 98; c--)
 printf("%d, ", c);
 else
-for (c = z; c < 98; c++)
+for (c = n; c < 98; c++)
 printf("%d, ", c);
-_putchar("98\n");
-return (0);
+printf("98\n");
 }
