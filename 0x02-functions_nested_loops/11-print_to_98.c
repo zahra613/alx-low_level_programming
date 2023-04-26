@@ -5,8 +5,8 @@
 *	separated by comma, followed
 * by space and number should be
 *	printed in order
-*@c: the charachter in ASCII code
-@n: the charachter in ASCII code
+* @c: the charachter in ASCII code
+* @n: the charachter in ASCII code
 *written by black
 * Return: Always 0.
 */
