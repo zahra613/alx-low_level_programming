@@ -1,10 +1,11 @@
 #include "main.h"
-
 /**
- * main - check the code
- *written by black
- * Return: Always 0.
- */
+* times_table - Entry poin
+*  descreption: 'tble of 9'
+*  Return 1: "for lower case 0 for the rest".
+*   written by black
+* Return:  always 0 (success)
+**/
 void times_table(void)
 {
 int z;
