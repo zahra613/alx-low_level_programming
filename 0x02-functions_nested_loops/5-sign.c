@@ -1,9 +1,12 @@
 #include "main.h"
 /**
-* 5-sign.c -Entry point
-* description: "print alphabet in lower and uppercase"
-* Return: Always 0 (Success)
-*/
+* print_sign - Entry point
+* @n: the charachter in ASCII code
+*  descreption: 'print alphabets that are lower case with 1'
+*  Return 1: "for lower case 0 for the rest".
+*   written by black
+* Return:  always 0 (success)
+**/
 int print_sign(int n)
 {
 if (n > 0)
