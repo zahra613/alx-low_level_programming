@@ -5,7 +5,7 @@
 * '_islower' - Entry point
 *  descreption: '_islower'
 *  return 1: for lower case 0 for the rest
-*   written by black
+*   written by blacke
 * return:  always 0 (success)
 **/
 int _islower(int c)
