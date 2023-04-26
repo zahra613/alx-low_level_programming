@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
-* print_alphabet_x10 print alphabets  ten times
-* return: always 0
+ * print_alphabet_x10 - Entry point
+* descreption: " print_alphabet_x10 print alphabets  ten times"
+* return: always 0(success)
 *WRITTEN BY BLACK
 **/
 void print_alphabet_x10(void)
