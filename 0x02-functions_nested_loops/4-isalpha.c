@@ -1,9 +1,12 @@
 #include "main.h"
 /**
-* main - print alphabets in lower case and uppercase
-* written by black
-* Return: Always 0.
-*/
+* -isalpha - Entry point
+* @c: the charachter in ASCII code
+*  descreption: 'print alphabets that are lower case with 1'
+*  Return 1: "for lower case 0 for the rest".
+*   written by black
+* Return:  always 0 (success)
+**/
 int _isalpha(int c)
 {
 if (c >= 65 && c <= 122)
