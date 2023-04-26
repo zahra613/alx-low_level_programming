@@ -26,21 +26,21 @@ if (z <=n  ||n==0)
     return(0);
 }
 {
-putchar(multi + '0');
+_putchar(multi + '0');
 }
 if (multi <= n && z != 0)
 {
-putchar(',');
-putchar(' ');
-putchar(' ');
-putchar(multi + '0');
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
+_putchar(multi + '0');
 }
 else if (multi >= n)
 {
-putchar(',');
-putchar(' ');
-putchar((multi / 10) + '0');
-putchar((multi % 10) + '0');
+_putchar(',');
+_putchar(' ');
+_putchar((multi / 10) + '0');
+_putchar((multi % 10) + '0');
 }
 }
 putchar('\n');
