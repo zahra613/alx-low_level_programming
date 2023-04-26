@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_alphabet_x10.c  Write a function that prints 10 times the alphabet, in lowercase, followed by a new line
+* print_alphabet_x10.c  Write a function that prints 10 times the alphabet
 *WRITTEN BY BLACK
 **/
 void print_alphabet_x10(void)
