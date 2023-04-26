@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - Entry point
-* descreption: 'print_alphabet_x10.c print it ten times'
+* descreption: print_alphabet_x10.c print it ten times
 * return: always 0
 *WRITTEN BY BLACK
 **/
