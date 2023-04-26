@@ -1,11 +1,10 @@
 #include "main.h"
 /**
 * _islower - Entry point
-* @c - the charachter in ASCII code
-* '_islower' - Entry point
-*  descreption: '_islower'
-*  return 1: for lower case 0 for the rest
-*   written by blacke
+* @c: the charachter in ASCII code
+*  descreption: 'print alphabets that are lower case with 1 and otherwise print 0 '
+*  return 1: "for lower case 0 for the rest"
+*   written by black
 * return:  always 0 (success)
 **/
 int _islower(int c)
