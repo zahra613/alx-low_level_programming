@@ -7,12 +7,9 @@
  */
 void print_times_table(int n)
 	{
-
 int z;
 int c;
 int multi;
-c = n;
-z = n;
 for (c = 0; c <= n; c++)
 {
 for (z = 0; z <= n; z++)
@@ -42,7 +39,7 @@ _putchar((multi / 10) + '0');
 _putchar((multi % 10) + '0');
 }
 }
-putchar('\n');
+_putchar('\n');
 }
 }
 }
