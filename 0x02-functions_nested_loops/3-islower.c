@@ -2,10 +2,10 @@
 /**
 * _islower - Entry point
 * @c: the charachter in ASCII code
-*  descreption: 'print alphabets that are lower case with 1 and otherwise print 0 '
-*  return 1: "for lower case 0 for the rest"
+*  descreption: 'print alphabets that are lower case with 1 and otherwise print 0'
+*  Return 1: "for lower case 0 for the rest".
 *   written by black
-* return:  always 0 (success)
+* Return:  always 0 (success)
 **/
 int _islower(int c)
 {
