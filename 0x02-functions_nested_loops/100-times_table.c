@@ -17,10 +17,6 @@ for (z = 0; z <= n; z++)
 multi = z * c;
 if(z==n)
 {
-if (z <=n  ||n==0)
-{
-    return(0);
-}
 {
 _putchar(multi + '0');
 }
