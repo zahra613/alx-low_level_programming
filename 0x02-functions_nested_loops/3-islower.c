@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-* islower - Entry point *
+* islower - Entry point 
 *descreption: "is lower case "
 *   written by black
-*
+* always 0 (success)
 **/
 int _islower(int c)
 {
