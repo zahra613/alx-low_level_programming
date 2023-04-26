@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- * check
 * print_alphabet_x10.c print alphabet ten time
 *WRITTEN BY BLACK
 **/
