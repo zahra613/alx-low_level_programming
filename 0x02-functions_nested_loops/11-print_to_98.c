@@ -5,7 +5,7 @@
 *	separated by comma, followed
 *	by space and number should be
 *	printed in order
-* 
+*
 *written by black
 * Return: Always 0.
 */
