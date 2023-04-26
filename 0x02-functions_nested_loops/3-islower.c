@@ -1,9 +1,10 @@
 #include "main.h"
 /**
 * _islower - Entry point
-* 'c' - Entry point
+* @c - the charachter in ASCII code
 * '_islower' - Entry point
 *  descreption: '_islower'
+*  return 1: for lower case 0 for the rest
 *   written by black
 * return:  always 0 (success)
 **/
