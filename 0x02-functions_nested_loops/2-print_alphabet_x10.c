@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - Entry point
-*2- print_alphabet_x10.c print alphabets  ten times
+* print_alphabet_x10 print alphabets  ten times
 * return: always 0
 *WRITTEN BY BLACK
 **/
