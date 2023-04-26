@@ -1,7 +1,8 @@
 #include "main.h"
 /**
 * _islower - Entry point
-* 'c'
+* 'c' - Entry point
+* '_islower' - Entry point
 *  descreption: '_islower'
 *   written by black
 * return:  always 0 (success)
