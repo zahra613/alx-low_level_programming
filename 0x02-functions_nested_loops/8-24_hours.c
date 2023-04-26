@@ -1,8 +1,7 @@
 #include "main.h"
 /**
 * jack_bauer  - Entry point
-* @c: the charachter in ASCII code
-*  descreption: 'print alphabets that are lower case with 1'
+*  descreption: 'print minutes and second of all day'
 *  Return 1: "for lower case 0 for the rest".
 *   written by black
 * Return:  always 0 (success)
