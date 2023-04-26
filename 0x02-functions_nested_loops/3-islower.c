@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* islower - Entry point
+* _islower - Entry point
 * descreption:"is lower case"
 *   written by black
 * return:  always 0 (success)
