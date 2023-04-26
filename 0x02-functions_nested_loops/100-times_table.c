@@ -11,7 +11,6 @@ void print_times_table(int n)
 int z;
 int c;
 int multi;
-int n;
 c = n;
 z = n;
 for (c = 0; c <= n; c++)
