@@ -1,9 +1,8 @@
 #include "main.h"
 /**
 * _islower - Entry point
-*  descreption: 'c'
+* 'c'
 *  descreption: '_islower'
-* descreption:"is lower case"
 *   written by black
 * return:  always 0 (success)
 **/
