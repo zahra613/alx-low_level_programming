@@ -6,7 +6,7 @@
 * @c: ascii code
 *  return 1 : if is it uppercase
 *  return 0 : if it is lowercase
-* Return : Always 0.
+* Return : Always 0 (success).
 */
 int _isupper(int c)
 
