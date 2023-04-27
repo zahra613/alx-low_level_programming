@@ -7,6 +7,7 @@
 * return 0: 'if it is lowercase'
 * Return: Always 0.
 */
+
 int _isupper(int c)
 
 {
