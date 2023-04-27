@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
 * _isupper - Entry point
 * description: 'this function for upper and lower alphabets'
@@ -18,5 +17,4 @@ else
 {
 return (0);
 }
-return (0);
 }
