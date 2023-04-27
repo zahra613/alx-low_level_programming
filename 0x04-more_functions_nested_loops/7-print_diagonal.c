@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
-* print_line  - Entry point
+* print_diagonal  - Entry point
 * @n : 'n is the number of times the character \ should be printed'
 *  descreption: 'draw line in terminal'
 *   written by black
@@ -10,7 +10,6 @@
 **/
 void print_diagonal(int n)
 {
-
 int diago;
 int t;
 if (n <= 0)
@@ -21,7 +20,7 @@ else
 {
 for (diago = 0; diago < n; diago++)
 {
-for (t=0 ; t < diago; t++)
+for (t = 0 ; t < diago; t++)
 {
 _putchar(' ');
 }
@@ -29,4 +28,4 @@ _putchar('\\');
 _putchar('\n');
 }
 }
-} 
+}
