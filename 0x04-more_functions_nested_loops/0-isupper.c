@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* _isupper - Entry point
+* -isupper - Entry point
 * description: 'this function for upper and lower alphabets'
 * @c : ' it's a decimal ascii code'
 * return 1: 'if is it uppercase'
