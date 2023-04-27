@@ -8,21 +8,17 @@
  */
 int _isupper(int c)
 	 {
-int z;
 
-      for(c=65;c<=90;c++)
-      {
-      for(z=97;z<=122;z++)
+      for(c=65;c<=122;c++)
       {
       if(c<=90)
          {
-          return(1);
+          return(0);
          }
           else
          {
-          return(0);
+          return(1);
          }
-      }
       _putchar(c + '0');
       _putchar(z+ '0');
       }
