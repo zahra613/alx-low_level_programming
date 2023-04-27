@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
-* main - 'prints fizz if it multiple of three print buzz if it's one of multi 5'
+* main - 'prints fizz if it multiple of three print buzz '
 * written by black
 * Return: Always 0 (Success)
 */
