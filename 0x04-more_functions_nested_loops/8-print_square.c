@@ -8,6 +8,7 @@
 *   written by black
 * Return:  always 0 (success)
 **/
+
 void print_square(int size)
 {
 int square;
@@ -24,5 +25,4 @@ _putchar('#');
 }
 _putchar('\n');
 }
-_putchar('\n');
 }
