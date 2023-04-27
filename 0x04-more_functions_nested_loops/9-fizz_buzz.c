@@ -8,9 +8,7 @@
 int main(void)
 {
 int z;
-for (z = 0; z <= 99; z++)
-{
-if(z != 0 && z <= 99)
+for (z = 1; z < 100; z++)
 {
 if (z % 3 == 0 && z % 5 == 0)
 {
@@ -33,7 +31,6 @@ printf("%d ", z);
 putchar(' ');
 }
 }
-}
-putchar('\n');
+printf("\n");
 return (0);
 }
