@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* multi  - Entry point
+* mul  - Entry point
 * @b: the charachter in ASCII code
 * @a: the charachter in ASCII code
 *  descreption: 'multi of two integer'
