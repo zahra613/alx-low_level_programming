@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _isupper - 'this function for upper and lower alphabets '
- * @c : ' it's a decimal ascii code'
- * return 1: 'if is it uppercase'
- * return 0: 'if it is lowercase'
- * Return: Always 0.
- */
+* _isupper - 'this function for upper and lower alphabets '
+* @c : ' it's a decimal ascii code'
+* return 1: 'if is it uppercase'
+* return 0: 'if it is lowercase'
+* Return: Always 0.
+*/
 int _isupper(int c)
 
 {
