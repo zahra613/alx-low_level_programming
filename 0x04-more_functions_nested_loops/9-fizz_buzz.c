@@ -10,32 +10,29 @@ int main(void)
 int z;
 for (z = 0; z <= 99; z++)
 {
-    if(z!=0 && z<=99)
-    {
-
-      if (z%3==0 && z%5==0)
-      {
-
+if(z != 0 && z <= 99)
+{
+if (z % 3 == 0 && z % 5 == 0)
+{
 printf(" FizzBuzz");
 putchar(' ');
 }
- else if  (z%3==0 )
- {
+else if  (z % 3 == 0 )
+{
 printf("Fizz");
 putchar(' ');
 }
- else if (z%5==0)
- {
+else if (z % 5 == 0)
+{
 printf ("Buzz");
 putchar(' ');
 }
-          else
-           {
-            printf("%d ", z);
-            putchar(' ');
-           }
+else
+{
+printf("%d ", z);
+putchar(' ');
 }
-
+}
 }
 putchar('\n');
 return (0);
