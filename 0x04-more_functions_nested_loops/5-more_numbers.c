@@ -3,11 +3,10 @@
 #include <unistd.h>
 /**
 *  more_numbers  - Entry piont
-* Description: 'print numbers to 14'
+* Description: 'print numbers to 14 ten time'
 * Return: always 0
 */
-/* this is a program to print the hexadecimal value
- * */
+
 void more_numbers(void)
 {
 
