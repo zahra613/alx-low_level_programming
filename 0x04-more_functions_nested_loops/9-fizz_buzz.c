@@ -8,7 +8,6 @@
 int main(void)
 {
 int z;
-int l;
 for (z = 0; z <= 99; z++)
 {
     if(z!=0 && z<=99)
