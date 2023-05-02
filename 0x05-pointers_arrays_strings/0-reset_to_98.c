@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * main - Entry point 
- * reset_to_98 - it update the value of an integer
+ * main - Entry point
+ * reset_to_98  - 'it update the value of an integer'
  * @n : it's a pointer
- *written by black 
+ *written by black
  * Return: Always 0.
  */
 void reset_to_98(int *n)
