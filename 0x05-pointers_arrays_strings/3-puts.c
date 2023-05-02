@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code
+ *  _puts  - Entry point
  * written by blak
  * @str : it's the content of a pointer
  * Return: Always 0.
