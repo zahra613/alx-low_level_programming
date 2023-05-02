@@ -8,7 +8,15 @@
 int _strlen(char *s)
 
 {
-return (*s);
+
+int x;
+x = 0;
+while (*s++)
+{
+x++;
+}
+
+return (x);
 
 }
 
