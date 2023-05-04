@@ -10,24 +10,23 @@
 char	*leet(char *str)
 {
 	int z;
-	z = 0;
 	int l;
+	char *b = "4433007711";
+	char *a = "aAeEoOtTlL";
+	z = 0;
 	l = 0;
-	char	*a = "aAeEoOtTlL";
-	char	*b = "4433007711";
 
-	while (str[z] != '\0')
+	for (z = 0; str[z] != '\0'; z++)
 		{
 	       while ( l < 10)
 		       {
-	       if (str[z] == a[l])
+	       if (str[z] == a[l] || str[z] == a[l] - 32)
 			{
 				str[z] = b[l];
 			}
 	       l++;
 	      }
 	       
-		   z++;
 	       }
 	return (str);
 	 }
