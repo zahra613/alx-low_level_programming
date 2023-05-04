@@ -20,7 +20,7 @@ char *leet(char *str)
 	l = 0;
 		while (l < 10)
 		{
-			if (str[z] == a[l] || str[z] == a[l] - 32)
+			if (str[z] == a[l])
 			{
 				str[z] = b[l];
 			}
