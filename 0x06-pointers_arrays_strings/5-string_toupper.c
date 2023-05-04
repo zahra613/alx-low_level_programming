@@ -2,18 +2,20 @@
 /**
  * string_toupper - changes all lowercase letters of a string to uppercase.
  * @str : input
- * Return :str
+ * Return : the resulting string
  */
-char	*string_toupper(char *str)
-{
-	int z;
+char *string_toupper(char *str)
 
-	z = 0;
-	while (str[z] != '\0')
-	{
-		if (str[z] >= 'a' && str[z] <= 'z')
-			str[z] = str[z];
-		z++;
-	}
-	return (str);
+{
+
+int z;
+z = 0;
+while (str[z] != '\0')
+{
+if (str[z] >= 'a' && str[z] <= 'z')
+str[z] = str[z] - 32;
+z++;
+}
+return (str);
+
 }
