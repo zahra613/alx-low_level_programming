@@ -24,6 +24,7 @@ str[z] = b[l];
 }
 l++;
 }
+}
 return (str);
 
 }
