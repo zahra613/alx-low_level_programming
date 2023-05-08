@@ -10,10 +10,10 @@ unsigned int _strspn(char *s, char *accept)
 {
 char *paccept;
 unsigned int z = 0;
-paccept = accept;
 while (*s != '\0')
 {
-while (*paccept != '\0' && *p != *s)
+paccept = accept;
+while (*paccept != '\0' && *paccept != *s)
 {
 paccept++;
 }
