@@ -8,20 +8,26 @@
  * Return: return haystack or null
  */
 char *_strstr(char *haystack, char *needle)
-
 {
-
-while (*haystack != '\0')
+int z;
+int l;
+z = 0;
+l = 0;
+while (haystack[z] != '\0')
 {
-if (*haystack == *needle)
+while (needle[l] != '\0')
 {
-return (haystack);
+if (haystack[z + l] != needle[l])
+{
+break;
 }
-haystack++;
+l++;
 }
-if (*needle == '\0')
+if (needle[l] == '\0')
 {
-return (haystack);
+return (haystack + z);
+}
+z++;
 }
 return (NULL);
 }
