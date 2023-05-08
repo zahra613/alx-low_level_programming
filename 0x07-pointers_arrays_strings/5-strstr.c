@@ -8,7 +8,9 @@
  * Return: return haystack or null
  */
 char *_strstr(char *haystack, char *needle)
+
 {
+
 while (*haystack != '\0')
 {
 if (*haystack == *needle)
@@ -18,4 +20,5 @@ return (haystack);
 haystack++;
 }
 return (NULL);
+
 }
