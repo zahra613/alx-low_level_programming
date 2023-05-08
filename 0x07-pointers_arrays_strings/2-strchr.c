@@ -17,9 +17,9 @@ return (s);
 }
 s++;
 }
-if (*s != c)
+if (c == '\0')
 {
-return (NULL);
+return (s);
 }
-return (0);
+return (NULL);
 }
