@@ -12,11 +12,11 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	if (n == 2)
+	if (n % 2 == 0)
 	{
 		return (0);
 	}
-	return (0 +  _prime_number(n, 1));
+	return (0 +  _prime_number(n, 2));
 }
 /**
  * _prime_number - check if the number is primer or not
@@ -27,13 +27,13 @@ int is_prime_number(int n)
  */
 int _prime_number(int a, int l)
 {
-	for (l = 2 ; l <= a / 2  ; l++)
+	if (l >  a / 2)
 	{
-		if (a % l == 0)
-	{
-			return (0);
-	}
 		return (1);
+	}
+	if (a % l == 0)
+	{
+		return (0);
 	}
 	return (_prime_number(a, l + 1));
 }
