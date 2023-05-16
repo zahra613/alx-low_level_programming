@@ -34,12 +34,5 @@ int **alloc_grid(int width, int height)
 	{
 		grid[i] = data + (i * width);
 	}
-	/* Clean up and free the memory if allocation fails*/
-	if (grid == NULL || data == NULL)
-	{
-	free(grid);
-	free(data);
-	return (NULL);
-	}
 	return (grid);
 }
