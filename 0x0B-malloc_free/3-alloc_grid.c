@@ -16,24 +16,27 @@ int **alloc_grid(int width, int height)
 	{
 		return (NULL);
 	}
+	/* Allocate memory for the grid*/
 	grid = malloc(height * sizeof(int *));
 	if (grid == NULL)
 	{
 		return (NULL);
 	}
-
+          /* Allocate memory for the data array*/
 	data = malloc((width * height) * sizeof(int));
 	if (data == NULL)
 	{
 		free(grid);
 		return (NULL);
 	}
+	 /* Assign the rows of the grid to the corresponding sections of the data array*/
 	for (i = 0; i < height; i++)
 	{
 		grid[i] = data + (i * width);
 	}
+	/* Clean up and free the memory if allocation fails*/
 	if (grid == NULL || data == NULL) {
-	for (i = 0; i <= height; i++)
+	for (i = 0; i < height; i++)
 	{
 		free(grid[i]);
 		 }
