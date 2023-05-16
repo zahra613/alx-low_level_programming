@@ -29,21 +29,23 @@ int **alloc_grid(int width, int height)
 		free(grid);
 		return (NULL);
 	}
-	 /* Assign the rows of the grid to the corresponding sections of the data array*/
+       	/* Assign the rows of the grid to the corresponding sections of the data array*/
 	for (i = 0; i < height; i++)
 	{
 		grid[i] = data + (i * width);
 	}
 	/* Clean up and free the memory if allocation fails*/
-	if (grid == NULL || data == NULL) {
+	if (grid == NULL || data == NULL)
+	{
 	for (i = 0; i < height; i++)
 	{
 		free(grid[i]);
-		 }
-            free(grid);
+	}
+	free(grid);
             free(data);
-            return NULL;
+            return (NULL);
         }
 	return(grid);
+	free(grid);
 	 }
 
