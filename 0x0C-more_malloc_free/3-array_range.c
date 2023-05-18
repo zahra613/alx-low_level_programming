@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * array_range -  function that creates an array of integers.
- *@min : the smallest integer
- *@max : the maximum integer
+ *@min: the smallest integer
+ *@max: the maximum integer
  * Return: ptr.
  */
 int *array_range(int min, int max)
