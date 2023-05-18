@@ -3,7 +3,7 @@
 /**
  * _calloc -  function that allocates memory for an array
  *@nmemb : elements of array
- *@size :the size of memory to allocate
+ *@size :the size of a  memory to allocate
  * Return: pointers
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
