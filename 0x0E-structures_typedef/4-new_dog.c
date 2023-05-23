@@ -11,7 +11,8 @@
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *dog = malloc(sizeof(dog_t));
+	dog_t *dog;
+	dog = malloc(sizeof(dog_t));
 
 	if (dog == NULL)
 	{
@@ -20,12 +21,12 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog->name = strdup(name);
 	dog->owner = strdup(owner);
 	if (dog->name == NULL || dog->owner == NULL)
-	{
-		free(dog->name);
-		free(dog->owner);
-		free(dog);
-		return (NULL);
-	}
+        {
+                free(dog->name);
+        free(dog->owner);
+        free(dog);
+        return (NULL);
+        }
 	dog->age = age;
 	return (dog);
 }
