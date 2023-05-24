@@ -5,7 +5,7 @@
 /**
  * print_name - function that prints a name
  *@name : character
- @f :given name
+ *@f :given name
  * Return: nothing
  */
 
