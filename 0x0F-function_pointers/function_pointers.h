@@ -1,4 +1,5 @@
-#ifndef  _function_pointers_h_
+#ifndef _function_pointers_h_
+
 #define _function_pointers_h_
 
 
