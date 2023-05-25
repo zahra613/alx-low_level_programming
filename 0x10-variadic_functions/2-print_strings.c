@@ -6,30 +6,27 @@
  *@separator : the string to be printed
  *@n : nmbr of elements
  */
-void print_strings(const char* separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
-    va_list args;
-    va_start(args, n);
+	va_list args;
 
-    for ( i = 0; i < n; i++)
-    {
-        char* str = va_arg(args, char*);
+	va_start(args, n);
 
-        if (str == NULL)
-            printf("(nil)");
-        else
-            printf("%s", str);
+	for (i = 0; i < n; i++)
+	{
+		char *str = va_arg(args, char *);
 
-        if (separator != NULL && i < n - 1)
-            printf("%s", separator);
-    }
+		if (str == NULL)
+			printf("(nil)");
+		else
+			printf("%s", str);
 
-    va_end(args);
+		if (separator != NULL && i < n - 1)
+			printf("%s", separator);
+	}
 
-    printf("\n");
+	va_end(args);
+
+	printf("\n");
 }
-
-
-
-
