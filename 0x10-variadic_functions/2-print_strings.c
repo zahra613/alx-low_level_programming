@@ -15,7 +15,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	{
 		printf("(nil)");
 	}
-	for (i = 0 ; i < n ; i++)
+	for (i = 0 ; i < n ; ++i)
 	{
 		const char *str;
 
