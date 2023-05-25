@@ -8,9 +8,9 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
-	const char *sep;
 	int num;
 	va_list args;
+	const char *sep;
 
 	va_start(args, n);
 
