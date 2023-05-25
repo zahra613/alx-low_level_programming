@@ -13,15 +13,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	op = separator;
 
-	/* Initialize a variable to hold the separator string*/
-	if (op == NULL)
-	{
-		separator = op;
-	}
-	else
-	{
-		op = "";
-	}
 	for (i = 0 ; i < n; i++)
 	{
 		int num;
@@ -29,7 +20,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		va_start(args, n);
 		num = va_arg(args, int);
 		printf("%d", num);
-		if (i < n - 1)
+		if (i != (n - 1) && op != NULL)
 		{
 			printf("%s", op);
 		}
