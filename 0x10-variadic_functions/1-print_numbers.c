@@ -13,11 +13,10 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	const char *sep;
 
 	va_start(args, n);
-
-if (separator != NULL)
-{
+	if (separator != NULL)
+	{
 	sep = separator;
-}
+	}
 for (i = 0; i < n; i++)
 {
 	num = va_arg(args, int);
