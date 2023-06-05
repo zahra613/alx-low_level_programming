@@ -13,7 +13,7 @@ int main(void)
     listint_t *head;
     listint_t *new;
     listint_t hello = {8, NULL};
-    size_t n;
+    long unsigned int n;
 
     head = &hello;
     new = malloc(sizeof(listint_t));
