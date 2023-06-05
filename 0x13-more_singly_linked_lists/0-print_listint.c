@@ -6,17 +6,18 @@
 */
 size_t print_listint(const listint_t *h)
 {
+	const listint_t *node = h;
 	size_t counter;
-	if (h == NULL)
+	if (node == NULL)
 
 		return (0);
 
 	counter = 0;
-	while (h != NULL)
+	while (node != NULL)
 	{
-		printf("%d\n", h->n);
+		printf("%d\n", node->n);
 		counter++;
-		h = h->next;
+	       node = node->next;
 	}
 	return (counter);
 }
