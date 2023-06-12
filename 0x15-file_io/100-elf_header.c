@@ -95,7 +95,8 @@ int main(int argc, char* argv[])
 	if (fd == -1) {
 		print_error("Failed to open file");
 	}
-	if (read(fd, &header, sizeof(header)) != sizeof(header)) {
+	if (read(fd, &header, sizeof(header)) != sizeof(header))
+	{
 		print_error("Failed to read ELF header");
 	}
 	if (header.e_ident[EI_MAG0] != ELFMAG0 ||
