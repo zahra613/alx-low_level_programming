@@ -47,9 +47,11 @@ int main(int argc, char *argv[])
 	exit(98);
 	file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 	if (file_to < 0)
+	{
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 		close_file(file_from);
 		exit(98);
+	}
 	while ((bytes_read = read(file_from, buffer, sizeof(buffer))) > 0)
 	{
 		bytes_written = write(file_to, buffer, bytes_read);
