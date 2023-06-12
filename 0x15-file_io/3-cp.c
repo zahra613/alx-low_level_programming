@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 	f_wr = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 	if (f_wr < 0)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
+		printf("Error: Can't write to %s\n", argv[2]);
 		close(f_rd), exit(99);
 	}
 	while ((bytes_read = read(f_rd, buffer, BUFSIZ)) > 0)
@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 		bytes_written = write(f_wr, buffer, bytes_read);
 		if (bytes_written != bytes_read)
 		{
-			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
+			printf("Error: Can't write to %s\n", argv[2]);
 			close(f_rd), exit(99);
 		}
 	}
